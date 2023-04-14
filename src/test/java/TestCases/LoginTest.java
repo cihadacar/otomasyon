@@ -17,7 +17,7 @@ public class LoginTest {
 
     @Given("Trendyol sayfasina gidilir")
     public void tyPage(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/java/Drivers/chromedriver.exe");
         webDriver= new ChromeDriver();
         webDriver.manage().window().maximize();
         webDriver.get(loginPageUrl);
